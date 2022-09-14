@@ -1,22 +1,16 @@
 #include "main.h"
-
 /**
- * void print_alphabet_x10 -> print the lowest alphabet
- * Description: c is doing well to stress me.
- * Return: void
+ * print_alphabet_x10 - function to print
+ *
+ * Return: Always 0 (Success)
  */
-
-
 void print_alphabet_x10(void)
-{
-	int x;
-	int i;
-
-	for (x = 0; x < 10; x++)
+{	char c, i;
+	for (i = 0; i <= 9; i++)
 	{
-		for (i = 'a'; i <= 'z'; i++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(i);
+			_putchar(c);
 		}
 		_putchar('\n');
 	}
